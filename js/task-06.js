@@ -3,7 +3,7 @@ console.log(inputElement);
 
 const inputHandler = () => {
   //   console.log(inputElement.value.length);
-  if (inputElement.value.length >= 6) {
+  if (inputElement.value.length === 6) {
     inputElement.classList.add("valid");
     inputElement.classList.remove("invalid");
   } else {
